@@ -1,0 +1,12 @@
+.navbar {
+    opacity: 0.9;
+    transition: all 0.75s;
+
+    .btn-outline-light:hover {
+        color: var(--bs-dark);
+    }
+}
+
+.navbar-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
