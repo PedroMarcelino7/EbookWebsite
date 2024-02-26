@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free E-Book | Start Your Own Blog</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="images/logo.png" alt="Logo" width="225">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link fw-semibold">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#details" class="nav-link fw-semibold">Details</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link fw-semibold btn btn-outline-light px-4 mx-4">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="header">
+        <div class="hero text-white pt-7">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Contact Information</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s; margin-bottom: -2px;" viewBox="0 0 1440 100"
+            version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(243, 246, 249, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(243, 246, 249, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,60L24,51.7C48,43,96,27,144,25C192,23,240,37,288,50C336,63,384,77,432,76.7C480,77,528,63,576,51.7C624,40,672,30,720,21.7C768,13,816,7,864,10C912,13,960,27,1008,41.7C1056,57,1104,73,1152,78.3C1200,83,1248,77,1296,61.7C1344,47,1392,23,1440,15C1488,7,1536,13,1584,20C1632,27,1680,33,1728,43.3C1776,53,1824,67,1872,61.7C1920,57,1968,33,2016,31.7C2064,30,2112,50,2160,60C2208,70,2256,70,2304,65C2352,60,2400,50,2448,46.7C2496,43,2544,47,2592,53.3C2640,60,2688,70,2736,68.3C2784,67,2832,53,2880,50C2928,47,2976,53,3024,51.7C3072,50,3120,40,3168,45C3216,50,3264,70,3312,76.7C3360,83,3408,77,3432,73.3L3456,70L3456,100L3432,100C3408,100,3360,100,3312,100C3264,100,3216,100,3168,100C3120,100,3072,100,3024,100C2976,100,2928,100,2880,100C2832,100,2784,100,2736,100C2688,100,2640,100,2592,100C2544,100,2496,100,2448,100C2400,100,2352,100,2304,100C2256,100,2208,100,2160,100C2112,100,2064,100,2016,100C1968,100,1920,100,1872,100C1824,100,1776,100,1728,100C1680,100,1632,100,1584,100C1536,100,1488,100,1440,100C1392,100,1344,100,1296,100C1248,100,1200,100,1152,100C1104,100,1056,100,1008,100C960,100,912,100,864,100C816,100,768,100,720,100C672,100,624,100,576,100C528,100,480,100,432,100C384,100,336,100,288,100C240,100,192,100,144,100C96,100,48,100,24,100L0,100Z">
+            </path>
+        </svg>
+    </header>
+
+    <!-- contact form -->
+    <section class="contact bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-lg" name="name" placeholder="Name">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-lg" name="email" placeholder="E-Mail">
+                        </div>
+
+                        <div>
+                            <textarea class="form-control form-control-lg" name="message" rows="6"
+                                placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="d-flex">
+                            <button type="submit" class="btn btn-primary text-white mt-5 px-5">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- map -->
+    <section class="location my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <h3>Our Location</h3>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias soluta incidunt
+                        dolore assumenda dolorem alias in architecto vitae similique suscipit, perferendis illo delectus
+                        ipsa voluptates dolores quidem blanditiis ea totam!
+                    </p>
+
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.5303553091994!2d-0.14076024298621118!3d51.51210217963597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d502268421%3A0x6a7d62889992f993!2sRegent+St%2C+Soho%2C+London+W1B+5TH%2C+UK!5e0!3m2!1sen!2sro!4v1476174541049"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- social -->
+    <section class="social text-bg-dark py-6 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center fs-4">
+                    <p>Stay connected and join our vibrant community. For any inquiries or assistance, feelfree to reach
+                        out to us
+                    </p>
+
+                    <div class="social-icons d-flex justify-content-center gap-4">
+                        <i class="fab fa-facebook fa-2x"></i>
+                        <i class="fab fa-twitter fa-2x"></i>
+                        <i class="fab fa-instagram fa-2x"></i>
+                        <i class="fab fa-linkedin fa-2x"></i>
+                        <i class="fab fa-github fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link link-light">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#details" class="nav-link link-light">Details</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link link-light">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <p class="text-end d-none d-lg-block">
+                        Copyright &copy; Blog Master 2024
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- boostrap script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
